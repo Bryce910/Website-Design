@@ -1,0 +1,46 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 8
+   Case Problem 1
+   Special Effects style sheet
+   Author:  Bryce Moral	
+   Date:   06-16-2015
+
+   Filename:         dweffects.css
+   Supporting Files: 
+
+*/
+
+
+body {
+
+box-shadow: 10px 0px 15px rgba(211,211,211, 0.5);
+box-shadow: 0px 0px 10px 15px rgba(211,211,211, 0.5);
+
+}
+
+nav .horizontal {
+
+background-color: rgb(224,238,238);
+border-raduis: 10px;
+box-shadow: 0px 0px 3px 2px white inset, 5px 0px 5px rgb(147,207,207);
+
+
+}
+
+article {
+
+box-shadow: 15px 15px 75px rgb(171,171,171) inset, 5px 5px 5px rgb(101,101,101);
+
+}
+
+blockquote {
+ 
+ background: -webkit-linear-gradient(left, rgb(166,230,230), rgb(231,231,231) 33%, rgb(255,255,255) );
+ background: -o-linear-gradient(right, color, color);
+ background: -moz-linear-gradient(right, color, color);
+ background: linear-gradient(to right,rgb(166,230,230), rgb(231,231,231) 5%, rgb(255,255,255) 15%);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DEF4F4', endColorstr='#FFFFFF');
+
+ }
+
