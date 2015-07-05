@@ -12,6 +12,7 @@
 
 */
 
+/* Set width of page in Firefox */
 @page{
 
 margin: 0.5in;
@@ -19,6 +20,15 @@ width: 8.5in;
 height: 11in;
 
 }
+/* Set width and etc. of page in Chrome */
+@media print{
+	html, body {
+	width: 8.5in;
+	height: 11in;
+	margin: 0.5in;
+	}
+}
+
 
  #left, header,  #right, nav, aside, footer,  header h2, article p:last-child {
 
@@ -53,6 +63,9 @@ list-style-type: decimal;
 
 }
 
-h2:nth-last-child(2n + 1) {
+SECTION > H2:last-of-type
+{
+
 	page-break-before:always;
+
 }
